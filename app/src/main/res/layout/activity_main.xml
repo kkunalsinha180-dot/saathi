@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="🧠"
+            android:textSize="52sp"
+            android:layout_marginTop="20dp" />
+
+        <!-- App name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Saathi"
+            android:textColor="#1E293B"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+        <!-- Greeting -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Good Morning"
+            android:textColor="#475569"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Activities -->
+        <Button
+            android:id="@+id/activities"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🧩  Activities"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:backgroundTint="#DDEBFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Games -->
+        <Button
+            android:id="@+id/games"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🎮  Games"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:backgroundTint="#E6F7E9"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Music -->
+        <Button
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🎵  Music"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:backgroundTint="#FFF1D6"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Medicine -->
+        <Button
+            android:id="@+id/medicine"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="💊  Medicine"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:backgroundTint="#FDE2E4"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Help -->
+        <Button
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="🆘  I Need Help"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D9534F" />
+
+        <!-- Small footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You are not alone. Saathi is here."
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
